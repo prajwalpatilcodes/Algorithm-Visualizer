@@ -86,3 +86,30 @@ button {
 button:hover{
   background-color:var(--darkest);
 }
+
+.input_menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.input_array{
+  display: flex;
+  flex-direction: column;
+  margin: auto 3em;
+}
+div{
+  color:var(--lightest);
+}
+.input_method{
+  display: flex;
+  flex-direction: column;
+  margin:1em auto;
+}
+
+.user_input{
+  display: flex;
+  flex-direction: row;
+}
+.option_buttons{
+  padding-top: 1em;
+}
