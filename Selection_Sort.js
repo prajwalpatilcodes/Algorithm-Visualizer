@@ -32,13 +32,13 @@ function selectionSort() {
     elements[n - 1].style.backgroundColor = "blueviolet";
     end = window.performance.now();
     document.getElementById('bubble').disabled = false;
-    document.getElementById('bubble').style.backgroundColor = "green";
+    document.getElementById('bubble').style.backgroundColor = "#240046";
     document.getElementById('merge').disabled = false;
-    document.getElementById('merge').style.backgroundColor = "green";
+    document.getElementById('merge').style.backgroundColor = "#240046";
     document.getElementById('insertion').disabled = false;
-    document.getElementById('insertion').style.backgroundColor = "green";
+    document.getElementById('insertion').style.backgroundColor = "#240046";
     document.getElementById('selection').disabled = false;
-    document.getElementById('selection').style.backgroundColor = "green";
+    document.getElementById('selection').style.backgroundColor = "#240046";
     console.log(`Execution time: ${end - start} ms`);
     clearInterval(globinterval);
   }
@@ -46,13 +46,13 @@ function selectionSort() {
 
 function selection_sortonclick() {
   document.getElementById('bubble').disabled = true;
-  document.getElementById('bubble').style.backgroundColor = "grey";
+  document.getElementById('bubble').style.backgroundColor = "#c77dff";
   document.getElementById('merge').disabled = true;
-  document.getElementById('merge').style.backgroundColor = "grey";
+  document.getElementById('merge').style.backgroundColor = "#c77dff";
   document.getElementById('insertion').disabled = true;
-  document.getElementById('insertion').style.backgroundColor = "grey";
+  document.getElementById('insertion').style.backgroundColor = "#c77dff";
   document.getElementById('selection').disabled = true;
-  document.getElementById('selection').style.backgroundColor = "grey";
+  document.getElementById('selection').style.backgroundColor = "#c77dff";
   start = window.performance.now();
   (i = 0), (j = 1), (min_idx = 0);
   var startinterval = setInterval(selectionSort, 1000);
